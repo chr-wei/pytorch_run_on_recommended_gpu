@@ -1,6 +1,6 @@
-from run_on_recommended_cuda.datasets import data_management
-from run_on_recommended_cuda import __version__
-from run_on_recommended_cuda.datasets import data_management
+from run_on_recommended_gpu.datasets import data_management
+from run_on_recommended_gpu import __version__
+from run_on_recommended_gpu.datasets import data_management
 
 def test_version():
     assert __version__ == '0.4.16'
