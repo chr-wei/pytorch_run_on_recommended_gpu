@@ -36,8 +36,9 @@ Run a script from GPU ids 6 and 7
 ## Usage from .py file
 ```python
 import os
-from pytorch.run_on_recommended_gpu.run_on_recommended_gpu import get_cuda_environ_vars as get_vars
+from pytorch_run_on_recommended_gpu.run_on_recommended_gpu import get_cuda_environ_vars as get_vars
 
-os.environ.update(get_vars('*'))
+os.environ.update(get_vars('*')
+print(get_vars('*')))
 import torch # Import torch after you have updated the vars.
 ```
