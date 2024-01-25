@@ -22,4 +22,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 pytorch_run_on_recommended_gpu = 'pytorch_run_on_recommended_gpu.run_on_recommended_gpu:main'
-pytorch_remotes_cuda_utilization = 'pytorch_run_on_recommended_gpu.remotes_gpu_utilization:main'
+pytorch_remotes_gpu_utilization = 'pytorch_run_on_recommended_gpu.remotes_gpu_utilization:main'
