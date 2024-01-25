@@ -14,7 +14,7 @@ Perform a dry run
 
 Run a script and select a GPU manually
 
-`pytorch_run_on_recommended_cuda`
+`pytorch_run_on_recommended_cuda <path_to_script>`
 
 
 
